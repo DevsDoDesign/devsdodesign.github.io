@@ -1,0 +1,120 @@
+/******************
+ * HEADER
+ *****************/
+.jumbotron {
+	background: #EE306A;
+	background: -webkit-linear-gradient(-25deg, #EE3041, #EE30AA);
+	background: -moz-linear-gradient(-25deg, #EE3041, #EE30AA);
+	background: linear-gradient(-25deg, #EE3041, #EE30AA);
+	text-align: center;
+	margin: 50px auto 0;
+	color: #fff;
+	font-family: sans-serif;
+	margin: 50px -15px 0;
+}
+
+.jumbotron p {
+	text-transform: lowercase;
+	font-variant: small-caps;
+}
+
+/******************
+ * TEAM
+ *****************/
+.team {
+	margin: 50px -15px;
+}
+
+.team .avatar {
+	/*-webkit-filter: grayscale(100%);*/
+}
+
+
+@media (max-width: 991px) {
+	.team .col-xs-6:first-child, .team .col-xs-6:nth-child(2) {
+		margin-bottom: 25px;
+	}
+}
+
+@media (max-width: 450px) {
+	.team .col-xs-6 {
+		margin-bottom: 25px;
+	}
+
+	.team .col-xs-6:last-child {
+		margin-bottom: 0;
+	}
+
+	.col-xs-6 {
+		margin-left: 16.66666667%;
+		width: 66.66666667%;
+	}
+}
+
+/******************
+ * PROJECTS
+ *****************/
+.project {
+	margin-bottom: 50px;
+	width: 100%;
+}
+
+.blown-over {
+	background-image: url(project-blownover.png);
+	background-position: center top;
+	background-size: cover;
+	padding: 60px 40px;
+}
+
+.blown-over h3 {
+	text-align: right;
+	color: #980000;
+	color: #D81937;
+	margin-top: 0;
+}
+
+.blown-over p {
+	text-align: right;
+	color: white;
+	color: #E0E0E0;
+	margin-left: 50%;
+	margin-bottom: 0;
+}
+
+.blown-over img {
+	position: relative;
+	margin-top: -20%;
+	margin-left: 90px;
+}
+
+@media (min-width: 992px) {
+	.blown-over img {
+		margin-top: -35%;
+		margin-left: 70px;
+	}
+}
+
+a.project-link:hover {
+	text-decoration: none;
+}
+
+.coming-soon {
+	background: url(asteroids.jpg);
+	padding: 70px 40px;
+}
+
+.coming-soon h3 {
+	text-align: center;
+	color: white;
+}
+
+.coming-soon div {
+	background: rgba(0,0,0,.8);
+	color: white;
+	padding: 10px 0;
+}
+
+.coming-soon p {
+	text-align: center;
+	margin-left: 0;
+}

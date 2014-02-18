@@ -18,6 +18,11 @@
 	font-variant: small-caps;
 }
 
+code {
+	font-family: 'Source Code Pro',Menlo,Monaco,Consolas,"Courier New",monospace;
+	font-weight: 200;
+}
+
 /******************
  * TEAM
  *****************/

@@ -103,23 +103,26 @@ a.project-link:hover {
 	text-decoration: none;
 }
 
-.coming-soon {
-	background: url(asteroids.jpg);
+.third-world {
+	background: url(http://i.imgur.com/ll5yk2i.png);
+	background-position: bottom right;
 	padding: 70px 40px;
 }
 
-.coming-soon h3 {
-	text-align: center;
+.third-world h3 {
+	/*text-align: center;*/
 	color: white;
+	text-shadow: 2px 2px 1px black;
 }
 
-.coming-soon div {
-	background: rgba(0,0,0,.8);
-	color: white;
-	padding: 10px 0;
+.third-world div {
+	/*background: rgba(0,0,0,.8);*/
+	/*color: black;*/
+	/*padding: 10px 0;*/
 }
 
-.coming-soon p {
-	text-align: center;
-	margin-left: 0;
+.third-world p {
+	/*text-align: center;*/
+	/*margin-left: 0;*/
+	text-shadow: 2px 2px 1px black;
 }

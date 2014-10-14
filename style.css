@@ -56,6 +56,23 @@ code {
 	}
 }
 
+/**
+ * Winnings
+ */
+
+.winnings {
+	font-size: 140%;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.winnings__list {
+	list-style-type: none;
+}
+
+.winnings__list li {
+	padding: 5px 0;
+}
 /******************
  * PROJECTS
  *****************/

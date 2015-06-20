@@ -77,7 +77,7 @@ code {
  * PROJECTS
  *****************/
 .project {
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 	width: 100%;
 }
 
@@ -141,5 +141,20 @@ a.project-link:hover {
 .third-world p {
 	/*text-align: center;*/
 	/*margin-left: 0;*/
+	text-shadow: 2px 2px 1px black;
+}
+
+.crapchat {
+	background: url(project-crapchat.png);
+	background-position: bottom right;
+	padding: 85px 40px;
+}
+
+.crapchat h3 {
+	color: #f8e502;
+	text-shadow: 2px 2px 1px black;
+}
+
+.crapchat p {
 	text-shadow: 2px 2px 1px black;
 }

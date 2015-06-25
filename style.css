@@ -158,3 +158,18 @@ a.project-link:hover {
 .crapchat p {
 	text-shadow: 2px 2px 1px black;
 }
+
+.knockoffia {
+	background: url(project-knockoffia.png);
+	background-position: bottom right;
+	padding: 85px 40px;
+}
+
+.knockoffia h3 {
+	color: #b6c38d;
+	text-shadow: 2px 2px 1px black;
+}
+
+.knockoffia p {
+	text-shadow: 2px 2px 1px black;
+}

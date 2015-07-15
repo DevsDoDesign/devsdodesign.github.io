@@ -175,3 +175,18 @@ a.project-link:hover {
 .knockoffia p {
 	text-shadow: 2px 2px 1px black;
 }
+
+.pixely {
+	background: url(project-pixely.png);
+	background-position: bottom left;
+	padding: 85px 40px;
+}
+
+.pixely h3 {
+	color: #ee305f;
+	text-shadow: 2px 2px 1px black;
+}
+
+.pixely p {
+	text-shadow: 2px 2px 1px black;
+}

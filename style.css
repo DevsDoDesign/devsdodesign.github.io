@@ -29,7 +29,10 @@ code {
 }
 
 .team .avatar {
-	/*-webkit-filter: grayscale(100%);*/
+	border-radius: 5px;
+}
+.team .avatar:hover {
+	-webkit-filter: sepia(1);
 }
 
 
@@ -60,7 +63,7 @@ code {
 
 .winnings {
 	font-size: 140%;
-	margin-bottom: 20px;
+	margin-top: 20px;
 	text-align: center;
 }
 

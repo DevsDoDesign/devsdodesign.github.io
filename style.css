@@ -67,14 +67,6 @@ code {
 	text-align: center;
 }
 
-.winnings__list {
-	list-style-type: none;
-}
-
-.winnings__list li {
-	padding: 5px 0;
-}
-
 .fa-trophy {
 	color: #F4BB2D;
 }

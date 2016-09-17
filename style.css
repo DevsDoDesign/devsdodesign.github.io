@@ -185,3 +185,25 @@ a.project-link:hover {
 .pixely p {
 	text-shadow: 2px 2px 1px black;
 }
+
+.trump {
+	background: url(project-trump.jpg);
+	padding: 85px 40px;
+	text-shadow: 2px 2px 1px black;
+}
+
+.trump p {
+	text-shadow: 2px 2px 1px black;
+}
+
+.trump-red {
+	color: #F23D46;
+}
+
+.trump-blue {
+	color: #1CA6F6;
+}
+
+.trump-white {
+	color: white;
+}
